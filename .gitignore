@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# PyTorch and training artifacts
+*.pt
+*.pth
+*.ckpt
+*.log
+*.log.*
+*.tensorboard
+runs/
+checkpoints/
+output/
+outputs/
+logs/
+*.npz
+*.npy
+
+# Datasets & temporary files
+data/
+datasets/
+tmp/
+temp/
+cache/
+*.zip
+*.tar.gz
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Custom folders to ignore
+chinesebert/
+pretrain_w/
+

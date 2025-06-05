@@ -1,0 +1,57 @@
+{
+  "1.2.156.112605.14038004227763.20180206030505.3.3496.11": {
+    "PatientID": "Y1118874",
+    "Manufacturer": "UIH",
+    "PatientBirthDate": "20140915",
+    "PatientSex": "F",
+    "StudyID": "25865432",
+    "StudyDate": "20180206",
+    "StudyTime": "111224.000000",
+    "ProtocolName": "IAC Helical",
+    "PatientAge": "003Y"
+  },
+  "1.2.156.112605.14038004227763.20180207024151.3.5060.20": {
+    "PatientID": "A402347",
+    "Manufacturer": "UIH",
+    "PatientBirthDate": "20000329",
+    "PatientSex": "M",
+    "StudyID": "25872639",
+    "StudyDate": "20180207",
+    "StudyTime": "103846.000000",
+    "ProtocolName": "Sinus Helical",
+    "PatientAge": "017Y"
+  },
+  "1.2.156.112605.14038004227763.20180822033855.3.4704.11": {
+    "PatientID": "Y3694345",
+    "Manufacturer": "UIH",
+    "PatientBirthDate": "19641228",
+    "PatientSex": "M",
+    "StudyID": "27838382",
+    "StudyDate": "20180822",
+    "StudyTime": "111503.000000",
+    "ProtocolName": "Sinus Helical",
+    "PatientAge": "053Y"
+  },
+  "1.2.156.112605.14038004227763.20180822033855.3.4704.8": {
+    "PatientID": "Y3694345",
+    "Manufacturer": "UIH",
+    "PatientBirthDate": "19641228",
+    "PatientSex": "M",
+    "StudyID": "27838382",
+    "StudyDate": "20180822",
+    "StudyTime": "111503.000000",
+    "ProtocolName": "Sinus Helical",
+    "PatientAge": "053Y"
+  },
+  "1.2.156.112605.14038004227763.20180912173735.3.5112.8": {
+    "PatientID": "A0021679",
+    "Manufacturer": "UIH",
+    "PatientBirthDate": "19940112",
+    "PatientSex": "M",
+    "StudyID": "28045488",
+    "StudyDate": "20180912",
+    "StudyTime": "111005.000000",
+    "ProtocolName": "IAC Helical",
+    "PatientAge": "024Y"
+  }
+}
