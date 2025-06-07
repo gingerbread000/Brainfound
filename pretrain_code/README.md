@@ -17,6 +17,7 @@ accelerate launch --gpu_ids=7 --num_processes=1 --main_process_port 6676 --confi
 ```
 
 **Pretrained Weight**
+
 [Download Pretrained Weights](https://drive.google.com/file/d/1dkx1bYKjwDMKg2zEdupnq5BPOrPfJgs7/view?usp=sharing)
 ---
 
