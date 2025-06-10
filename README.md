@@ -34,13 +34,13 @@ The detailed usage instructions are provided in each task-specific directory.
 - `pretrain_code/` — Pretraining pipeline for Brainfound  
   - `stage1/` — Pretrain based on diffusion model.  
     - `pretrain_ddpm.py` — Code for pretraining using diffusion.
-    - `pretrain_ddpm.py` — Code for generating images using pretrained diffusion models.
+    - `generate.py` — Code for generating images using pretrained diffusion models.
   - `stage2/` — Pretrain based on CLIP. 
     - `pretrain.py` — Code for pretraining using CLIP.
     - `run_zero_shot_eval.py` — Code for evaluating zero-shot classification.
   - `stage3/` — Pretrain based on Autoregressive.   
     - `modeling_internvl_chat.py` — Patch file.
-    - `UNet2d_condition.py` — Model define.
+    - `UNet2d_condition.py` — Model definition.
 
 - `downstream/` — Downstream task implementations  
   - `hemorrhage_seg/` — Brain hemorrhage segmentation  
