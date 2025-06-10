@@ -32,9 +32,15 @@ The detailed usage instructions are provided in each task-specific directory.
 ## 🗂️ Repository Structure
 
 - `pretrain_code/` — Pretraining pipeline for Brainfound  
-  - `stage1/` — Data preparation for large-scale CT/MRI and paired reports  
-  - `stage2/` — Vision-language model architecture  
-  - `stage3/` — Pretraining scripts and loss functions  
+  - `stage1/` — Pretrain based on diffusion model.  
+    - `pretrain_ddpm.py` — Code for pretraining using diffusion.
+    - `pretrain_ddpm.py` — Code for generating images using pretrained diffusion models.
+  - `stage2/` — Pretrain based on CLIP. 
+    - `pretrain.py` — Code for pretraining using CLIP.
+    - `run_zero_shot_eval.py` — Code for evaluating zero-shot classification.
+  - `stage3/` — Pretrain based on Autoregressive.   
+    - `modeling_internvl_chat.py` — Patch file.
+    - `UNet2d_condition.py` — Model define.
 
 - `downstream/` — Downstream task implementations  
   - `hemorrhage_seg/` — Brain hemorrhage segmentation  
@@ -43,6 +49,7 @@ The detailed usage instructions are provided in each task-specific directory.
   - `mri_enhancement/` — MRI image enhancement  
   - `report_gen/` — Automatic radiology report generation  
   - `dialog_qa/` — Visual-language dialogue QA  
+    - `QA.mp4`  — Web-based demo video of the dialogue
   - `mcq/` — Multiple-choice question answering (zero-shot)  
 
 - `README.md` — Project introduction and documentation  
