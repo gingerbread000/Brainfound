@@ -5,7 +5,7 @@
 ## 🌟 Highlights
 
 - **Unified foundation model** trained on large-scale paired brain CT and MRI datasets.
-- Supports **multi-modal input/output** (image-to-text, text-to-image, cross-modal reasoning).
+- Supports **multi-modal input/output** (image-to-text, text-to-image).
 
 ## ✅ Code TODO
 
