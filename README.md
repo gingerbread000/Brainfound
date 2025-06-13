@@ -23,7 +23,7 @@ The detailed usage instructions are provided in each task-specific directory.
 - [ ] Brain midline shift segmentation
 - [ ] MRI modality translation
 - [ ] MRI image quality enhancement
-- [ ] Automatic radiology report generation
+- [X] Automatic radiology report generation
 - [ ] Visual-language dialogue QA
 - [ ] Multiple-choice question (MCQ) answering (zero-shot)
 
